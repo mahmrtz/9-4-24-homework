@@ -1,0 +1,503 @@
+body{
+    background-color: gainsboro;
+}
+
+.main {
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    position: absolute;
+    left: 350px;
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+.page-top{
+    width: 480px;
+    height: 60px;
+    background-color:rgba(0, 0, 0, 0.489) ;
+    left: 10px;
+    position: absolute;
+    top: 5px;
+}
+
+.main img{
+    width: 500px;
+    height: 300px;
+}
+
+.opacity{
+    width: 500px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.330) ;
+    position: absolute;
+    left: -10px;
+    top: -5px;
+}
+
+
+
+.phone-number span{
+    position: absolute;
+    color: rgb(157, 156, 156);
+    font-size: 7px;
+}
+
+.gmail span{
+    position: absolute;
+    color: rgb(157, 156, 156);
+    font-size: 9px;
+    left: 70px;
+    top: -2px;
+}
+
+.fb a img{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 400px;
+}
+
+.x a img{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 420px;
+}
+
+.yt a img{
+    position: absolute;
+    width: 12px;
+    height: 9px;
+    left: 440px;
+}
+
+.fb:hover{
+    cursor: pointer;
+}
+
+.x:hover{
+    cursor: pointer;
+}
+
+.yt:hover{
+    cursor: pointer;
+}
+
+
+.logo {
+    width: 50px;
+    height: 14px;
+    background: transparent;
+    position: absolute;
+    top: 24px;
+    left: 5px;
+    border: solid 1px white;
+}
+
+
+.logo span {
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: px;
+    left: 6.5px;
+}
+
+
+
+.home-top span{
+    font-size: 7px;
+    position: absolute;
+    color: white;
+    top: 27px;
+    left: 100px;
+}
+
+.about2 span{
+    font-size: 7px;
+    position: absolute;
+    color: white;
+    top: 27px;
+    left: 140px;
+}
+
+.services span{
+    font-size: 7px;
+    position: absolute;
+    color: white;
+    top: 27px;
+    left: 180px;
+}
+
+.work span{
+    font-size: 7px;
+    position: absolute;
+    color: white;
+    top: 27px;
+    left: 220px;
+}
+
+.contact span{
+    font-size: 7px;
+    position: absolute;
+    color: white;
+    top: 27px;
+    left: 260px;
+}
+
+.blog span{
+    font-size: 7px;
+    position: absolute;
+    color: white;
+    top: 27px;
+    left: 300px;
+}
+
+.search img{
+    width: 10px;
+    height: 10px;
+    left: 400px;
+    top: 25px;
+    position: absolute;
+}
+
+.menu span{
+    font-size: 10px;
+    position: absolute;
+    color: white;
+    top: 21px;
+    left: 440px;
+}
+
+
+.top-menu:hover{
+    color: rgb(183, 183, 183);
+    cursor: pointer;
+}
+
+.top-menu{
+    transition: 0.5s;
+}
+
+
+
+.home-top:hover{
+    color: rgb(183, 183, 183);
+    cursor: pointer;
+}
+
+.home-top{
+    transition: 0.5s;
+    z-index: 20;
+}
+
+
+.about2:hover{
+    color: rgb(183, 183, 183);
+    cursor: pointer;
+}
+
+.about2{
+    transition: 0.5s;
+    z-index: 20;
+}
+
+
+.services:hover{
+    color: rgb(183, 183, 183);
+    cursor: pointer;
+}
+
+.services{
+    transition: 0.5s;
+    z-index: 20;
+}
+
+
+.work:hover{
+    color: rgb(183, 183, 183);
+    cursor: pointer;
+    
+}
+
+.work{
+    z-index: 20;
+    transition: 0.5s;
+}
+
+
+.contact:hover{
+    color: rgb(183, 183, 183);
+    cursor: pointer;
+}
+
+.contact{
+    transition: 0.5s;
+    z-index: 20;
+}
+
+.bloh:hover{
+    color: rgb(183, 183, 183);
+    cursor: pointer;
+}
+
+.blog{
+    transition: 0.5s;
+    z-index: 20;
+}
+
+
+
+
+
+.button{
+    width: 90px;
+    height: 30px;
+    background: lawngreen;
+    position: absolute;
+    transition: 0.5s;
+    top: 115px;
+}
+
+
+.button span{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
+
+
+.button:hover{
+    background: rgb(94, 188, 0);
+    cursor: pointer;
+}
+
+
+#What {
+    font-size: 12px;
+    position: absolute;
+    color: white;
+    top: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#H1{
+    color: white;
+    position: absolute;
+    top: 20px;
+    font-size: xx-large;
+    /* left: 10px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#par{
+    color: white;
+    position: absolute;
+    top: 60px;
+    z-index: 100;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text{
+    width: 300px;
+    min-height: 100px;
+    /* background: yellow; */
+    position: absolute;
+    box-sizing: border-box;
+    top: 100px;
+}
+
+.tactic-logo1 img{
+    width: 25px;
+    height: 25px;
+    top: 330px;
+    left: 20px;
+    position: absolute;
+}
+
+
+
+.first-t-header{
+    font-size: 15px;
+    position: absolute;
+    top:333px;
+    left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+
+.tac-p-1{
+    font-size: 9px;
+    position: absolute;
+    top: 355px;
+    left: 50px;
+    box-sizing: border-box;
+    width: 110px;
+    min-height: 10px;
+}
+
+
+
+.tactic-logo2 img{
+    width: 20px;
+    height: 20px;
+    top: 334px;
+    left: 180px;
+    position: absolute;
+}
+
+
+.second-t-header{
+    font-size: 15px;
+    position: absolute;
+    top:333px;
+    left: 210px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+
+.tac-p-2{
+    font-size: 9px;
+    position: absolute;
+    top: 355px;
+    left: 210px;
+    box-sizing: border-box;
+    width: 110px;
+    min-height: 10px;
+}
+
+
+
+.tactic-logo3 img{
+    width: 20px;
+    height: 20px;
+    top: 334px;
+    left: 340px;
+    position: absolute;
+}
+
+
+.third-t-header{
+    font-size: 15px;
+    position: absolute;
+    top:333px;
+    left: 370px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+
+.tac-p-3{
+    font-size: 9px;
+    position: absolute;
+    top: 355px;
+    left: 370px;
+    box-sizing: border-box;
+    width: 110px;
+    min-height: 10px;
+}
+
+.options{
+    /* min-width: 30px; */
+    height: 12px;
+    position: absolute;
+    top: 440px;
+    /* background: greenyellow; */
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+
+.options:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+
+.options span{
+    font-size: 11px;
+    position: absolute;
+    left: 7px;
+}
+
+
+.options span:hover{
+    cursor: pointer;
+}
+
+#a1{
+    left: 20px;
+    width: 30px;
+}
+
+#a2{
+    left: 70px;
+    width: 40px;
+}
+
+#a2 span{
+    left: 4px;
+}
+
+#a3{
+    left: 130px;
+    width: 60px;
+}
+
+
+#a4{
+    left: 210px;
+    width: 50px;
+}
+
+#a5{
+    left: 280px;
+    width: 50px;
+}
+
+.pictures img{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+
+}
+
+#p1{
+    top: 460px;
+    left: 20px;
+}
+
+
+#p2{
+    top: 460px;
+    left: 180px;
+}
+
+#p3{
+    top: 460px;
+    left: 340px; 
+}
+
+
+
+#p4{
+    left: 20px;
+    top: 580px;
+}
+
+#p5{
+    left: 180px;
+    top: 580px;
+}
+
+#p6{
+    left: 340px;
+    top: 580px;
+}
